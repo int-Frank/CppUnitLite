@@ -36,5 +36,5 @@ void TestResult::testsEnded ()
   if (failureCount > 0)
     std::clog << "There were " << failureCount << " failures" << std::endl;
   else
-    std::clog << "There were no test failures" << std::endl;
+    std::clog << "There were no test failures";
 }
